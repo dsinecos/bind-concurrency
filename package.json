@@ -2,5 +2,15 @@
   "name": "bound-concurrency",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon ./build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.2"
+  }
 }
