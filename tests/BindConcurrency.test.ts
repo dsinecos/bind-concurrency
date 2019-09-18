@@ -1,5 +1,5 @@
-import { BindConcurrency } from './BindConcurrency';
-import { HasGroupId, HasAsyncOp } from './interfaces';
+import { BindConcurrency } from '../src/BindConcurrency';
+import { HasGroupId, HasAsyncOp } from '../src/interfaces';
 
 class TestStore implements HasAsyncOp {
   private store: {
