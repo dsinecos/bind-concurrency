@@ -23,4 +23,8 @@ export class Queue<T> {
   hasElement(): boolean {
     return (this.queue.length !== 0)
   }
+
+  print() {
+    return this.queue;
+  }
 }
