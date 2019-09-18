@@ -6,7 +6,8 @@
   "scripts": {
     "start:build": "tsc -w",
     "start:run": "nodemon ./build/index.js",
-    "start": "concurrently npm:start:*"
+    "start": "concurrently npm:start:*",
+    "test": "jest --watch"
   },
   "dependencies": {
     "@types/debug": "^4.1.5",
